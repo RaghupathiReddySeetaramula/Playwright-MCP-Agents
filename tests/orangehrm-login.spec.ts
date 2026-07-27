@@ -1,5 +1,4 @@
 import { expect, test } from './fixtures/fixtures';
-import { BasePage } from './pages/base.page';
 
 test.describe('OrangeHRM Login Flow', () => {
   test('TC01-page-load-and-initial-ui', async ({ page, loginPage }) => {
