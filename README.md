@@ -1,5 +1,5 @@
-Playwright Test Agents
-Introduction
+**Playwright Test Agents**
+**Introduction**
 Playwright comes with three Playwright Test Agents out of the box: 🎭 planner, 🎭 generator and 🎭 healer.
 
 These agents can be used independently, sequentially, or as the chained calls in the agentic loop. Using them sequentially will produce test coverage for your product.
@@ -8,11 +8,11 @@ These agents can be used independently, sequentially, or as the chained calls in
 🎭 generator transforms the Markdown plan into the Playwright Test files
 🎭 healer executes the test suite and automatically repairs failing tests
 
-Playwright MCP
+**Playwright MCP**
 A Model Context Protocol (MCP) server that provides browser automation capabilities using Playwright. 
 This server enables LLMs to interact with web pages through structured accessibility snapshots, bypassing the need for screenshots or visually-tuned models.
 
-Playwright MCP vs Playwright CLI
+**Playwright MCP vs Playwright CLI**
 This package provides MCP interface into Playwright. If you are using a coding agent, you might benefit from using the CLI+SKILLS instead.
 
 CLI: Modern coding agents increasingly favor CLI–based workflows exposed as SKILLs over MCP 
